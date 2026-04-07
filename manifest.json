@@ -1,0 +1,11 @@
+{
+  "id": "deepseekian",
+  "name": "DeepSeekian",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "DeepSeek-Integration für Obsidian. Nutze DeepSeek-Chat (V3), DeepSeek-Reasoner (R1) und DeepSeek-Coder für KI-gestützte Notizen-Workflows.",
+  "author": "DEVinDEV Development L.L.C.",
+  "authorUrl": "https://devindev.de",
+  "fundingUrl": "https://devindev.de",
+  "isDesktopOnly": false
+}

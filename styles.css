@@ -1,0 +1,90 @@
+/* DeepSeekian Plugin Styles */
+
+.deepseekian-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.deepseekian-settings {
+  margin-bottom: 15px;
+}
+
+.deepseekian-skill-selector {
+  margin-bottom: 10px;
+}
+
+.deepseekian-skill-selector select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+}
+
+.deepseekian-prompt-input {
+  margin-bottom: 10px;
+}
+
+.deepseekian-prompt-input textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  resize: vertical;
+}
+
+.deepseekian-button-group {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.deepseekian-button-group button {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.deepseekian-button-group button:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+.deepseekian-loading {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.deepseekian-error {
+  padding: 10px;
+  border-left: 3px solid var(--text-error);
+  background-color: var(--background-secondary);
+  color: var(--text-error);
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.deepseekian-response {
+  padding: 10px;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 12px;
+  max-height: 300px;
+  overflow-y: auto;
+}
